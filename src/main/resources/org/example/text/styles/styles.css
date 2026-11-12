@@ -1,0 +1,72 @@
+/* BOTÓN GUARDAR */
+.boton-guardar {
+    -fx-background-color: linear-gradient(to bottom, #075A64, #073039);
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Jaro";
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-border-color: #00F5FF;
+    -fx-border-width: 2;
+    -fx-border-radius: 12;
+    -fx-effect: dropshadow(gaussian, #00F5FF, 15, 0.5, 0, 0);
+    -fx-cursor: hand;
+}
+
+.boton-guardar:hover {
+    -fx-background-color: #087D88;
+}
+
+/* BOTÓN CARGAR */
+.boton-cargar {
+    -fx-background-color: linear-gradient(to bottom, #53236D, #291139);
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Jaro";
+    -fx-font-size: 24px;
+    -fx-font-weight: regular;
+    -fx-background-radius: 12;
+    -fx-border-color: #D64CFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 12;
+    -fx-effect: dropshadow(gaussian, #C83BFF, 15, 0.5, 0, 0);
+    -fx-cursor: hand;
+}
+
+.boton-cargar:hover {
+    -fx-background-color: #753393;
+}
+
+/* TEXTOS NOMBRE Y PUNTAJE */
+.label-campo {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Protest Strike";
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+}
+
+/* CAMPOS DE TEXTO */
+.campo-texto {
+    -fx-background-color: #191C2A;
+    -fx-text-fill: #FFFFFF;
+    -fx-prompt-text-fill: #888A9A;
+    -fx-font-family: "Protest Strike";
+    -fx-font-size: 18px;
+    -fx-background-radius: 8;
+    -fx-border-color: #45485D;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 8;
+    -fx-padding: 10 15;
+}
+
+.campo-texto:focused {
+    -fx-border-color: #00E5FF;
+    -fx-effect: dropshadow(gaussian, #00DFFF, 8, 0.3, 0, 0);
+}
+
+/* MENSAJE INFERIOR */
+.label-mensaje {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Protest Strike";
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
