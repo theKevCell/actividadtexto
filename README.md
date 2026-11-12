@@ -131,7 +131,7 @@ Durante el ejercicio me planteé preguntas como las siguientes:
 7. **¿En qué lugar se crea realmente `record.txt`?** Aprendí que una ruta relativa depende del directorio desde el cual se ejecuta el programa.
 8. **¿Qué responsabilidad corresponde al controlador y cuál al modelo?** La separación MVC me hizo revisar qué partes debían manejar validaciones, eventos y persistencia.
 
-Estas preguntas representan los temas que necesité explorar para comprender mejor la implementación. *(Puedo actualizar esta sección con nuevas dudas o dificultades encontradas durante las pruebas).* 
+Estas preguntas representan los temas que necesité explorar para comprender mejor la implementación.
 
 ## Declaración de uso responsable de inteligencia artificial
 
